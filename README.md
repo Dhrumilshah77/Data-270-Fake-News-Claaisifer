@@ -12,15 +12,18 @@ refer https://github.com/reddit-archive/reddit/wiki/OAuth2
 
 
 Step2: Add following lines into your ~./bashrc
+
 export clientid="YOURCLIENTID"
 export clientsecret="YOURCLIENTSECRET"
 
 
 Step3: Change user_agent's value in the code
+
 <ApplicaitonName> by /u/<YourUsername>
 
 
 Step4: Install the libraries in requirements.txt
+
 pip install -r requirements.txt
 
 
